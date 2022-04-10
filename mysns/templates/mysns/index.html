@@ -8,5 +8,13 @@
 </head>
 <body>
     <h1>Hello Django</h1>
+
+    <div>{{ message }}</div>
+    <div>
+        {% for member in members %}
+        <p>{{ member }}</p>
+        {% endfor %}
+        
+    </div>
 </body>
 </html>
